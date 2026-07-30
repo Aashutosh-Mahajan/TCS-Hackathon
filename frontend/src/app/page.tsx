@@ -29,7 +29,7 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen overflow-x-clip bg-black text-white">
+    <main className="min-h-screen bg-black relative overflow-hidden">
       {/* Subtle radial gradient background */}
       <div className="fixed inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(99,102,241,0.08)_0%,_transparent_50%)] pointer-events-none" />
       <div className="fixed inset-0 bg-[radial-gradient(ellipse_at_bottom_right,_rgba(34,197,94,0.04)_0%,_transparent_50%)] pointer-events-none" />
