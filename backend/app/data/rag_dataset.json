@@ -1,0 +1,1042 @@
+[
+  {
+    "id": "001",
+    "passage": "All full-time employees are entitled to 24 days of paid annual leave per calendar year. Leave must be approved by the reporting manager at least 5 business days in advance. Unused leave up to 10 days can be carried forward to the next year.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Employee Handbook v3.2",
+      "section": "Leave Policy"
+    }
+  },
+  {
+    "id": "002",
+    "passage": "The company provides health insurance coverage for all employees and their immediate family members including spouse and up to two dependent children. The insurance covers hospitalization, outpatient treatments, and preventive health checkups up to INR 5,00,000 per annum.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Employee Handbook v3.2",
+      "section": "Health Benefits"
+    }
+  },
+  {
+    "id": "003",
+    "passage": "The annual performance review cycle runs from April 1st to March 31st. Mid-year reviews are conducted in September-October. Final ratings are calibrated across departments and communicated to employees by May 15th. Rating scale: 1 (Needs Improvement) to 5 (Exceptional).",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Performance Management Policy",
+      "section": "Review Cycle"
+    }
+  },
+  {
+    "id": "004",
+    "passage": "All employees must complete mandatory compliance training within 30 days of joining. This includes modules on data privacy (GDPR and India DPDP Act), anti-bribery and corruption, workplace harassment prevention, and information security. Annual refresher training is required for all staff.",
+    "language": "en",
+    "category": "compliance",
+    "metadata": {
+      "source": "Compliance Policy Framework",
+      "section": "Mandatory Training"
+    }
+  },
+  {
+    "id": "005",
+    "passage": "The company's work-from-home policy allows employees to work remotely up to 3 days per week with manager approval. Core hours are 10:00 AM to 4:00 PM IST during which employees must be available for meetings. VPN must be used for all remote connections to company systems.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Remote Work Guidelines v2.1",
+      "section": "WFH Policy"
+    }
+  },
+  {
+    "id": "006",
+    "passage": "Expense reimbursement requests must be submitted within 30 days of incurring the expense. All claims above INR 5,000 require supporting receipts and manager approval. Travel expenses are reimbursed as per the company's travel policy grade-wise limits. Claims not submitted within the deadline will not be processed.",
+    "language": "en",
+    "category": "finance",
+    "metadata": {
+      "source": "Finance Policy Manual",
+      "section": "Expense Reimbursement"
+    }
+  },
+  {
+    "id": "007",
+    "passage": "Employees on probation for the first 6 months are not eligible for paid annual leave but may avail up to 3 days of sick leave on medical grounds. Probationary employees are covered under the group health insurance from day one of joining.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Employee Handbook v3.2",
+      "section": "Probation Policy"
+    }
+  },
+  {
+    "id": "008",
+    "passage": "The company's data classification policy defines four levels: Public, Internal, Confidential, and Restricted. All customer data is classified as Confidential at minimum. Restricted data includes PII, financial records, and trade secrets. Unauthorized sharing of Confidential or Restricted data is a terminable offense.",
+    "language": "en",
+    "category": "compliance",
+    "metadata": {
+      "source": "Information Security Policy",
+      "section": "Data Classification"
+    }
+  },
+  {
+    "id": "009",
+    "passage": "The quarterly financial results for Q3 FY2025-26 show revenue of INR 45,200 crores, representing a 12% year-over-year growth. Operating margin stood at 26.3%, an improvement of 1.2 percentage points from the previous quarter. Net profit after tax was INR 11,800 crores.",
+    "language": "en",
+    "category": "finance",
+    "metadata": {
+      "source": "Quarterly Earnings Report Q3 FY26",
+      "section": "Financial Highlights"
+    }
+  },
+  {
+    "id": "010",
+    "passage": "The company's whistleblower policy provides a confidential channel for employees to report unethical conduct, fraud, or policy violations without fear of retaliation. Reports can be filed through the ethics hotline, email to ethics@company.com, or the online portal. All reports are investigated within 45 business days.",
+    "language": "en",
+    "category": "compliance",
+    "metadata": {
+      "source": "Ethics and Compliance Manual",
+      "section": "Whistleblower Protection"
+    }
+  },
+  {
+    "id": "011",
+    "passage": "Maternity leave is granted for 26 weeks (182 days) as per the Maternity Benefit Act, 2017. This is applicable for the first two surviving children. For the third child onwards, the entitlement is 12 weeks. Paternity leave of 15 working days is available within 6 months of the child's birth.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Employee Handbook v3.2",
+      "section": "Parental Leave"
+    }
+  },
+  {
+    "id": "012",
+    "passage": "The company's IT acceptable use policy states that all company-issued devices must have endpoint security software installed. Personal devices used for work must be enrolled in the MDM (Mobile Device Management) system. Employees must not install unauthorized software or store company data on personal cloud storage.",
+    "language": "en",
+    "category": "compliance",
+    "metadata": {
+      "source": "IT Acceptable Use Policy",
+      "section": "Device Management"
+    }
+  },
+  {
+    "id": "013",
+    "passage": "The notice period for confirmed employees is 90 days from the date of resignation. During the notice period, employees must complete all knowledge transfer activities and return company assets. Early release from notice period requires approval from the department head and HR.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Employee Handbook v3.2",
+      "section": "Separation Policy"
+    }
+  },
+  {
+    "id": "014",
+    "passage": "Internal job postings are open to all confirmed employees who have completed at least 18 months in their current role. Employees must inform their current manager before applying. The internal transfer process typically takes 4-6 weeks including interviews and transition planning.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Internal Mobility Policy",
+      "section": "Job Postings"
+    }
+  },
+  {
+    "id": "015",
+    "passage": "सभी पूर्णकालिक कर्मचारी प्रति कैलेंडर वर्ष 24 दिनों की सवेतन वार्षिक छुट्टी के हकदार हैं। छुट्टी के लिए कम से कम 5 कार्य दिवस पहले रिपोर्टिंग मैनेजर से अनुमोदन आवश्यक है। 10 दिनों तक की अप्रयुक्त छुट्टी अगले वर्ष में आगे बढ़ाई जा सकती है।",
+    "language": "hi",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "कर्मचारी पुस्तिका v3.2",
+      "section": "छुट्टी नीति"
+    }
+  },
+  {
+    "id": "016",
+    "passage": "कंपनी सभी कर्मचारियों और उनके परिवार के सदस्यों को स्वास्थ्य बीमा कवरेज प्रदान करती है जिसमें पति/पत्नी और दो आश्रित बच्चे शामिल हैं। बीमा में अस्पताल में भर्ती, बाह्य रोगी उपचार, और निवारक स्वास्थ्य जांच प्रति वर्ष 5,00,000 रुपये तक शामिल है।",
+    "language": "hi",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "कर्मचारी पुस्तिका v3.2",
+      "section": "स्वास्थ्य लाभ"
+    }
+  },
+  {
+    "id": "017",
+    "passage": "सर्व पूर्णवेळ कर्मचारी प्रत्येक कॅलेंडर वर्षात 24 दिवसांच्या सवेतन वार्षिक रजेस पात्र आहेत। रजेसाठी किमान 5 कार्य दिवस आधी रिपोर्टिंग व्यवस्थापकांची मंजुरी आवश्यक आहे। 10 दिवसांपर्यंतची न वापरलेली रजा पुढील वर्षात पुढे नेता येते।",
+    "language": "mr",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "कर्मचारी पुस्तिका v3.2",
+      "section": "रजा धोरण"
+    }
+  },
+  {
+    "id": "018",
+    "passage": "कंपनी सर्व कर्मचारी आणि त्यांच्या कुटुंबातील सदस्यांना आरोग्य विमा संरक्षण देते ज्यामध्ये पती/पत्नी आणि दोन अवलंबून मुलांचा समावेश आहे। विम्यामध्ये रुग्णालयात भरती, बाह्यरुग्ण उपचार, आणि प्रतिबंधात्मक आरोग्य तपासणी दरवर्षी 5,00,000 रुपयांपर्यंत समाविष्ट आहे।",
+    "language": "mr",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "कर्मचारी पुस्तिका v3.2",
+      "section": "आरोग्य लाभ"
+    }
+  },
+  {
+    "id": "019",
+    "passage": "The company's annual training budget allocates INR 50,000 per employee for professional development. This includes certifications, conferences, workshops, and online courses. Employees must submit a learning plan at the beginning of each fiscal year for manager approval.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Learning & Development Policy",
+      "section": "Training Budget"
+    }
+  },
+  {
+    "id": "020",
+    "passage": "Business continuity plans must be reviewed and updated quarterly by each department head. Critical systems must have a Recovery Time Objective (RTO) of 4 hours and Recovery Point Objective (RPO) of 1 hour. Annual disaster recovery drills are mandatory for all business-critical teams.",
+    "language": "en",
+    "category": "compliance",
+    "metadata": {
+      "source": "Business Continuity Policy",
+      "section": "DR Requirements"
+    }
+  },
+  {
+    "id": "021",
+    "passage": "Employees with five or more years of continuous service are eligible for unpaid sabbatical leave of up to 6 months. The request must be approved by the department head and HR at least 60 days in advance. The company guarantees the employee's return to the same or an equivalent role at the end of the sabbatical.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Employee Handbook v3.2",
+      "section": "Sabbatical Leave"
+    }
+  },
+  {
+    "id": "022",
+    "passage": "Employees who refer a successfully hired candidate receive a referral bonus of INR 25,000 for junior roles and INR 50,000 for senior or leadership roles. The bonus is paid after the referred employee completes 6 months of service. Referrers must not be part of the hiring panel for that role.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Talent Acquisition Policy",
+      "section": "Employee Referral Bonus"
+    }
+  },
+  {
+    "id": "023",
+    "passage": "The company follows flexible working hours with core hours from 11:00 AM to 3:00 PM IST, during which all employees must be available. Employees may choose their start time between 8:00 AM and 10:00 AM but must complete 8 working hours daily. This policy applies only to non-shift roles.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Employee Handbook v3.2",
+      "section": "Flexible Working Hours"
+    }
+  },
+  {
+    "id": "024",
+    "passage": "HR conducts an exit interview within the last 5 working days of an employee's tenure. Feedback is anonymized and aggregated quarterly for leadership review. Final settlement, including full and final dues, is processed within 45 days of the last working day.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Employee Handbook v3.2",
+      "section": "Exit Interview Process"
+    }
+  },
+  {
+    "id": "025",
+    "passage": "Employees at the senior manager level and above are eligible for Employee Stock Option Plan (ESOP) grants. Vesting occurs over 4 years with a 1-year cliff: 25% of the grant vests after the first year, and the remainder vests monthly thereafter.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "ESOP Policy Document",
+      "section": "Employee Stock Option Plan"
+    }
+  },
+  {
+    "id": "026",
+    "passage": "Employees are entitled to 5 days of paid bereavement leave in the event of the death of an immediate family member (spouse, child, parent, or sibling), and 2 days for extended family members. Additional unpaid leave may be granted on approval.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Employee Handbook v3.2",
+      "section": "Bereavement Leave"
+    }
+  },
+  {
+    "id": "027",
+    "passage": "Complaints of workplace harassment are addressed through the Internal Committee (IC) constituted under the POSH Act, 2013. Inquiries must be completed within 90 days of the complaint. Strict confidentiality is maintained and retaliation against complainants is prohibited.",
+    "language": "en",
+    "category": "compliance",
+    "metadata": {
+      "source": "POSH Policy Manual",
+      "section": "Anti-Harassment Reporting"
+    }
+  },
+  {
+    "id": "028",
+    "passage": "The company targets 40% women representation across its workforce by 2027. Unconscious bias training is mandatory for all hiring managers before they can participate in interview panels. A pay equity audit is conducted annually and results are reviewed by the leadership team.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Diversity & Inclusion Policy",
+      "section": "D&I Commitments"
+    }
+  },
+  {
+    "id": "029",
+    "passage": "Employees relocating for a company transfer of 100 kilometers or more are eligible for a lump sum relocation allowance equal to one month's gross salary, plus temporary housing support for up to 30 days.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Relocation Policy",
+      "section": "Relocation Assistance"
+    }
+  },
+  {
+    "id": "030",
+    "passage": "Non-exempt employees are compensated at 1.5 times their hourly rate for hours worked beyond 9 hours in a day or 48 hours in a week. Overtime must be pre-approved by the reporting manager and is capped at 20 hours per month.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Employee Handbook v3.2",
+      "section": "Overtime Compensation"
+    }
+  },
+  {
+    "id": "031",
+    "passage": "Transactions above INR 10 lakh are automatically flagged for compliance review. KYC (Know Your Customer) documentation is mandatory for all vendors and customers. Suspicious activity must be reported to the Compliance Officer within 24 hours of detection.",
+    "language": "en",
+    "category": "compliance",
+    "metadata": {
+      "source": "AML Policy Framework",
+      "section": "Anti-Money Laundering Policy"
+    }
+  },
+  {
+    "id": "032",
+    "passage": "Employees must disclose outside directorships, family employment relationships with vendors or competitors, and any financial interests in vendors annually via a declaration form. Disclosures are reviewed by the ethics committee, which may require recusal from related decisions.",
+    "language": "en",
+    "category": "compliance",
+    "metadata": {
+      "source": "Ethics and Compliance Manual",
+      "section": "Conflict of Interest Policy"
+    }
+  },
+  {
+    "id": "033",
+    "passage": "The trading window is closed from 15 days before the announcement of quarterly results until 48 hours after the results are made public. Designated employees must pre-clear all trades in company securities with the Compliance Officer.",
+    "language": "en",
+    "category": "compliance",
+    "metadata": {
+      "source": "Insider Trading Policy",
+      "section": "Insider Trading Restrictions"
+    }
+  },
+  {
+    "id": "034",
+    "passage": "All vendors with a contract value above INR 20 lakh undergo background verification, a financial health check, and compliance screening before onboarding. Renewal contracts above this threshold require re-verification every 2 years.",
+    "language": "en",
+    "category": "compliance",
+    "metadata": {
+      "source": "Procurement Policy Manual",
+      "section": "Vendor Due Diligence"
+    }
+  },
+  {
+    "id": "035",
+    "passage": "Financial records are retained for 8 years, employee records for 7 years after separation, and litigation-hold records are retained indefinitely until the related case is closed. Retention schedules are reviewed annually by the legal and finance teams.",
+    "language": "en",
+    "category": "compliance",
+    "metadata": {
+      "source": "Records Management Policy",
+      "section": "Record Retention Schedule"
+    }
+  },
+  {
+    "id": "036",
+    "passage": "Technology transfers to restricted countries require prior legal review. Dual-use items are classified according to applicable export control lists. Any suspected violation must be reported immediately to the Export Control Officer.",
+    "language": "en",
+    "category": "compliance",
+    "metadata": {
+      "source": "Export Control Policy",
+      "section": "Export Control Compliance"
+    }
+  },
+  {
+    "id": "037",
+    "passage": "Breaches affecting personal data must be reported to the Data Protection Officer (DPO) within 24 hours of discovery. Where required under the India DPDP Act, the relevant regulator must be notified within 72 hours of the breach being confirmed.",
+    "language": "en",
+    "category": "compliance",
+    "metadata": {
+      "source": "Information Security Policy",
+      "section": "Data Breach Notification"
+    }
+  },
+  {
+    "id": "038",
+    "passage": "All work product created during employment is automatically assigned to the company. Employees must disclose any inventions within 30 days of creation. This obligation applies even to work done outside office hours if it relates to the employee's job function.",
+    "language": "en",
+    "category": "compliance",
+    "metadata": {
+      "source": "IP and Confidentiality Policy",
+      "section": "IP Assignment"
+    }
+  },
+  {
+    "id": "039",
+    "passage": "Capital expenditures above INR 5 lakh require CFO approval, while expenditures above INR 50 lakh require board approval. All capex requests must be routed through the finance portal along with a documented business case.",
+    "language": "en",
+    "category": "finance",
+    "metadata": {
+      "source": "Finance Policy Manual",
+      "section": "Capital Expenditure Approval"
+    }
+  },
+  {
+    "id": "040",
+    "passage": "Departmental petty cash is limited to INR 10,000 and must be reconciled weekly by the department finance coordinator. Receipts are mandatory for all disbursements above INR 200; disbursements without receipts are not reimbursed.",
+    "language": "en",
+    "category": "finance",
+    "metadata": {
+      "source": "Finance Policy Manual",
+      "section": "Petty Cash Policy"
+    }
+  },
+  {
+    "id": "041",
+    "passage": "Standard vendor payment terms are net 45 days from the date of invoice receipt. An early payment discount of 2% is offered to vendors who accept payment within 10 days of invoicing.",
+    "language": "en",
+    "category": "finance",
+    "metadata": {
+      "source": "Finance Policy Manual",
+      "section": "Vendor Payment Terms"
+    }
+  },
+  {
+    "id": "042",
+    "passage": "Budget planning begins in January each year. Department budgets must be submitted by February 28, followed by board approval by March 31. The company's fiscal year runs from April to March.",
+    "language": "en",
+    "category": "finance",
+    "metadata": {
+      "source": "Finance Policy Manual",
+      "section": "Annual Budget Cycle"
+    }
+  },
+  {
+    "id": "043",
+    "passage": "Economy class is the standard for domestic flights under 5 hours. Business class travel is permitted for international flights over 6 hours for employees at the director level and above, subject to manager pre-approval.",
+    "language": "en",
+    "category": "finance",
+    "metadata": {
+      "source": "Travel Policy Manual",
+      "section": "Travel Expense Policy"
+    }
+  },
+  {
+    "id": "044",
+    "passage": "Q4 FY26 financial results show revenue of INR 48,600 crores, representing 8% year-over-year growth. Operating margin stood at 27.1%, and net profit after tax was INR 12,400 crores, with earnings per share of INR 18.30.",
+    "language": "en",
+    "category": "finance",
+    "metadata": {
+      "source": "Quarterly Earnings Report Q4 FY26",
+      "section": "Q4 FY26 Financial Highlights"
+    }
+  },
+  {
+    "id": "045",
+    "passage": "The audit committee meets quarterly to review internal audit findings and financial controls. The external auditor is rotated every 5 years per statutory requirement. Whistleblower reports relevant to financial matters are reviewed at each committee meeting.",
+    "language": "en",
+    "category": "finance",
+    "metadata": {
+      "source": "Audit Committee Charter",
+      "section": "Audit Committee Governance"
+    }
+  },
+  {
+    "id": "046",
+    "passage": "Assets with a purchase value above INR 25,000 are capitalized and depreciated using the straight-line method. Physical verification of fixed assets is conducted annually, and any disposal requires sign-off from the finance head.",
+    "language": "en",
+    "category": "finance",
+    "metadata": {
+      "source": "Fixed Asset Policy",
+      "section": "Fixed Asset Management"
+    }
+  },
+  {
+    "id": "047",
+    "passage": "Company passwords must be a minimum of 12 characters and include uppercase, lowercase, numeric, and special characters. Passwords must be changed every 90 days, and reuse of the last 10 passwords is not permitted.",
+    "language": "en",
+    "category": "compliance",
+    "metadata": {
+      "source": "IT Acceptable Use Policy",
+      "section": "Password Policy"
+    }
+  },
+  {
+    "id": "048",
+    "passage": "Customer data belonging to Indian clients is stored exclusively in India-region data centers. Any cross-border transfer of this data requires prior approval from the Data Protection Officer and execution of standard contractual clauses.",
+    "language": "en",
+    "category": "compliance",
+    "metadata": {
+      "source": "Information Security Policy",
+      "section": "Cloud Data Residency"
+    }
+  },
+  {
+    "id": "049",
+    "passage": "Only IT-approved software may be installed on company-issued devices. An annual software license audit is conducted, and any unauthorized software must be removed within 48 hours of detection.",
+    "language": "en",
+    "category": "compliance",
+    "metadata": {
+      "source": "IT Acceptable Use Policy",
+      "section": "Software License Compliance"
+    }
+  },
+  {
+    "id": "050",
+    "passage": "Production changes require approval from the Change Advisory Board (CAB) before deployment. Emergency changes may be made without prior approval but must be documented retrospectively within 24 hours. All changes are logged in the change management system.",
+    "language": "en",
+    "category": "compliance",
+    "metadata": {
+      "source": "IT Change Management Policy",
+      "section": "Change Management Process"
+    }
+  },
+  {
+    "id": "051",
+    "passage": "Severity 1 incidents must be acknowledged within 15 minutes and resolved within 4 hours. Severity 2 incidents must be acknowledged within 1 hour and resolved within 8 hours.",
+    "language": "en",
+    "category": "compliance",
+    "metadata": {
+      "source": "IT Service Management Policy",
+      "section": "Incident Response SLA"
+    }
+  },
+  {
+    "id": "052",
+    "passage": "Multi-factor authentication is mandatory for all systems accessing Confidential or Restricted data and for all VPN access. Hardware security tokens are issued to employees holding privileged system accounts.",
+    "language": "en",
+    "category": "compliance",
+    "metadata": {
+      "source": "Information Security Policy",
+      "section": "Multi-Factor Authentication"
+    }
+  },
+  {
+    "id": "053",
+    "passage": "Contracts up to INR 25 lakh may be signed by the department head. Contracts above this value require co-signature from the CFO or CEO. All signed contracts must be logged in the central contract repository.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Legal Policy Manual",
+      "section": "Contract Signing Authority"
+    }
+  },
+  {
+    "id": "054",
+    "passage": "A mutual non-disclosure agreement is required before sharing confidential information with any external party. The company's standard NDA template remains valid for 3 years from the date of signing unless otherwise specified.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Legal Policy Manual",
+      "section": "NDA Policy"
+    }
+  },
+  {
+    "id": "055",
+    "passage": "Upon notice of potential litigation, all relevant documents must be preserved and routine deletion schedules suspended. The legal department must notify affected document custodians within 48 hours of the notice.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Legal Policy Manual",
+      "section": "Litigation Hold Procedure"
+    }
+  },
+  {
+    "id": "056",
+    "passage": "Sales representatives may independently approve customer discounts up to 10%. Regional managers may approve discounts up to 20%. Any discount above 20% requires approval from the VP of Sales.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Sales Policy Manual",
+      "section": "Discount Approval Authority"
+    }
+  },
+  {
+    "id": "057",
+    "passage": "Explicit opt-in consent is required before sending customers marketing communications. Consent records are maintained for 3 years, and any opt-out request must be honored within 10 business days.",
+    "language": "en",
+    "category": "compliance",
+    "metadata": {
+      "source": "Data Privacy Policy",
+      "section": "Customer Data Consent"
+    }
+  },
+  {
+    "id": "058",
+    "passage": "The standard sales commission structure is 3% of total deal value, with an accelerator rate of 5% applied to deals that exceed the quarterly sales target. Commissions are paid monthly in arrears.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Sales Policy Manual",
+      "section": "Sales Commission Structure"
+    }
+  },
+  {
+    "id": "059",
+    "passage": "The company logo requires a minimum clear space equal to the logo's height on all sides. The primary brand color is Pantone 286C. Only approved typefaces from the brand style guide may be used in official communications.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Brand Guidelines Manual",
+      "section": "Brand Guidelines"
+    }
+  },
+  {
+    "id": "060",
+    "passage": "Employees must not share unreleased product information on personal or public social media accounts. Official company social media handles are managed exclusively by the marketing team. Personal posts referencing work must include a personal-views disclaimer.",
+    "language": "en",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "Social Media Policy",
+      "section": "Social Media Policy"
+    }
+  },
+  {
+    "id": "061",
+    "passage": "पांच या अधिक वर्षों की निरंतर सेवा वाले कर्मचारी 6 महीने तक की अवैतनिक सेबेटिकल छुट्टी के पात्र हैं। अनुरोध को कम से कम 60 दिन पहले विभाग प्रमुख और एचआर द्वारा अनुमोदित किया जाना चाहिए। कंपनी सेबेटिकल के अंत में कर्मचारी की उसी या समकक्ष भूमिका में वापसी की गारंटी देती है।",
+    "language": "hi",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "कर्मचारी पुस्तिका v3.2",
+      "section": "सेबेटिकल छुट्टी",
+      "twin_of": "021"
+    }
+  },
+  {
+    "id": "062",
+    "passage": "कंपनी लचीले कार्य समय का पालन करती है जिसमें मुख्य समय सुबह 11:00 बजे से दोपहर 3:00 बजे IST तक है, जिसके दौरान सभी कर्मचारियों को उपलब्ध रहना आवश्यक है। कर्मचारी सुबह 8:00 से 10:00 बजे के बीच अपना प्रारंभ समय चुन सकते हैं लेकिन प्रतिदिन 8 कार्य घंटे पूरे करने होंगे। यह नीति केवल गैर-शिफ्ट भूमिकाओं पर लागू होती है।",
+    "language": "hi",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "कर्मचारी पुस्तिका v3.2",
+      "section": "लचीला कार्य समय",
+      "twin_of": "023"
+    }
+  },
+  {
+    "id": "063",
+    "passage": "सीनियर मैनेजर स्तर और उससे ऊपर के कर्मचारी एम्प्लॉई स्टॉक ऑप्शन प्लान (ईएसओपी) के लिए पात्र हैं। वेस्टिंग 4 वर्षों में 1-वर्ष की क्लिफ के साथ होती है: पहले वर्ष के बाद अनुदान का 25% वेस्ट होता है, और शेष उसके बाद मासिक रूप से वेस्ट होता है।",
+    "language": "hi",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "ईएसओपी नीति दस्तावेज़",
+      "section": "कर्मचारी स्टॉक ऑप्शन योजना",
+      "twin_of": "025"
+    }
+  },
+  {
+    "id": "064",
+    "passage": "कर्मचारी तत्काल परिवार के सदस्य (पति/पत्नी, बच्चे, माता-पिता, या भाई-बहन) की मृत्यु की स्थिति में 5 दिनों की सवेतन शोक छुट्टी के हकदार हैं, और विस्तारित परिवार के सदस्यों के लिए 2 दिन। अनुमोदन पर अतिरिक्त अवैतनिक छुट्टी दी जा सकती है।",
+    "language": "hi",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "कर्मचारी पुस्तिका v3.2",
+      "section": "शोक छुट्टी",
+      "twin_of": "026"
+    }
+  },
+  {
+    "id": "065",
+    "passage": "100 किलोमीटर या उससे अधिक की कंपनी स्थानांतरण के लिए स्थानांतरित होने वाले कर्मचारी एक महीने के सकल वेतन के बराबर एकमुश्त स्थानांतरण भत्ते के पात्र हैं, साथ ही 30 दिनों तक अस्थायी आवास सहायता भी।",
+    "language": "hi",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "स्थानांतरण नीति",
+      "section": "स्थानांतरण सहायता",
+      "twin_of": "029"
+    }
+  },
+  {
+    "id": "066",
+    "passage": "10 लाख रुपये से अधिक के लेनदेन स्वचालित रूप से अनुपालन समीक्षा के लिए चिह्नित किए जाते हैं। सभी विक्रेताओं और ग्राहकों के लिए KYC (नो योर कस्टमर) दस्तावेज़ीकरण अनिवार्य है। संदिग्ध गतिविधि की पहचान के 24 घंटों के भीतर अनुपालन अधिकारी को सूचित किया जाना चाहिए।",
+    "language": "hi",
+    "category": "compliance",
+    "metadata": {
+      "source": "एएमएल नीति ढांचा",
+      "section": "मनी लॉन्ड्रिंग रोधी नीति",
+      "twin_of": "031"
+    }
+  },
+  {
+    "id": "067",
+    "passage": "ट्रेडिंग विंडो त्रैमासिक परिणामों की घोषणा से 15 दिन पहले से लेकर परिणाम सार्वजनिक होने के 48 घंटे बाद तक बंद रहती है। नामित कर्मचारियों को कंपनी की प्रतिभूतियों में सभी लेनदेन के लिए अनुपालन अधिकारी से पूर्व-मंजूरी लेनी होगी।",
+    "language": "hi",
+    "category": "compliance",
+    "metadata": {
+      "source": "इनसाइडर ट्रेडिंग नीति",
+      "section": "इनसाइडर ट्रेडिंग प्रतिबंध",
+      "twin_of": "033"
+    }
+  },
+  {
+    "id": "068",
+    "passage": "प्रतिबंधित देशों को प्रौद्योगिकी हस्तांतरण के लिए पूर्व कानूनी समीक्षा आवश्यक है। दोहरे उपयोग वाली वस्तुओं को लागू निर्यात नियंत्रण सूचियों के अनुसार वर्गीकृत किया जाता है। किसी भी संदिग्ध उल्लंघन की तुरंत निर्यात नियंत्रण अधिकारी को सूचना दी जानी चाहिए।",
+    "language": "hi",
+    "category": "compliance",
+    "metadata": {
+      "source": "निर्यात नियंत्रण नीति",
+      "section": "निर्यात नियंत्रण अनुपालन",
+      "twin_of": "036"
+    }
+  },
+  {
+    "id": "069",
+    "passage": "5 लाख रुपये से अधिक के पूंजीगत व्यय के लिए सीएफओ की मंजूरी आवश्यक है, जबकि 50 लाख रुपये से अधिक के व्यय के लिए बोर्ड की मंजूरी आवश्यक है। सभी कैपेक्स अनुरोधों को दस्तावेज़ीकृत व्यावसायिक मामले के साथ वित्त पोर्टल के माध्यम से भेजा जाना चाहिए।",
+    "language": "hi",
+    "category": "finance",
+    "metadata": {
+      "source": "वित्त नीति मैनुअल",
+      "section": "पूंजीगत व्यय अनुमोदन",
+      "twin_of": "039"
+    }
+  },
+  {
+    "id": "070",
+    "passage": "मानक विक्रेता भुगतान शर्तें चालान प्राप्ति की तारीख से 45 दिन शुद्ध हैं। उन विक्रेताओं को 2% की शीघ्र भुगतान छूट दी जाती है जो चालान जारी होने के 10 दिनों के भीतर भुगतान स्वीकार करते हैं।",
+    "language": "hi",
+    "category": "finance",
+    "metadata": {
+      "source": "वित्त नीति मैनुअल",
+      "section": "विक्रेता भुगतान शर्तें",
+      "twin_of": "041"
+    }
+  },
+  {
+    "id": "071",
+    "passage": "Q4 FY26 के वित्तीय परिणाम 48,600 करोड़ रुपये का राजस्व दिखाते हैं, जो साल-दर-साल 8% की वृद्धि दर्शाता है। परिचालन मार्जिन 27.1% रहा, और कर पश्चात शुद्ध लाभ 12,400 करोड़ रुपये रहा, जिसमें प्रति शेयर आय 18.30 रुपये रही।",
+    "language": "hi",
+    "category": "finance",
+    "metadata": {
+      "source": "त्रैमासिक आय रिपोर्ट Q4 FY26",
+      "section": "Q4 FY26 वित्तीय मुख्य बातें",
+      "twin_of": "044"
+    }
+  },
+  {
+    "id": "072",
+    "passage": "कंपनी के पासवर्ड कम से कम 12 वर्णों के होने चाहिए और उनमें अपरकेस, लोअरकेस, संख्यात्मक और विशेष वर्ण शामिल होने चाहिए। पासवर्ड हर 90 दिनों में बदले जाने चाहिए, और पिछले 10 पासवर्ड का पुन: उपयोग अनुमत नहीं है।",
+    "language": "hi",
+    "category": "compliance",
+    "metadata": {
+      "source": "आईटी स्वीकार्य उपयोग नीति",
+      "section": "पासवर्ड नीति",
+      "twin_of": "047"
+    }
+  },
+  {
+    "id": "073",
+    "passage": "कंपनी द्वारा जारी उपकरणों पर केवल आईटी-अनुमोदित सॉफ्टवेयर स्थापित किया जा सकता है। एक वार्षिक सॉफ्टवेयर लाइसेंस ऑडिट किया जाता है, और किसी भी अनधिकृत सॉफ्टवेयर को पहचान के 48 घंटों के भीतर हटाया जाना चाहिए।",
+    "language": "hi",
+    "category": "compliance",
+    "metadata": {
+      "source": "आईटी स्वीकार्य उपयोग नीति",
+      "section": "सॉफ्टवेयर लाइसेंस अनुपालन",
+      "twin_of": "049"
+    }
+  },
+  {
+    "id": "074",
+    "passage": "सिविअरिटी 1 घटनाओं को 15 मिनट के भीतर स्वीकार किया जाना चाहिए और 4 घंटों के भीतर हल किया जाना चाहिए। सिविअरिटी 2 घटनाओं को 1 घंटे के भीतर स्वीकार किया जाना चाहिए और 8 घंटों के भीतर हल किया जाना चाहिए।",
+    "language": "hi",
+    "category": "compliance",
+    "metadata": {
+      "source": "आईटी सेवा प्रबंधन नीति",
+      "section": "घटना प्रतिक्रिया एसएलए",
+      "twin_of": "051"
+    }
+  },
+  {
+    "id": "075",
+    "passage": "25 लाख रुपये तक के अनुबंधों पर विभाग प्रमुख द्वारा हस्ताक्षर किए जा सकते हैं। इस मूल्य से अधिक के अनुबंधों के लिए सीएफओ या सीईओ के सह-हस्ताक्षर आवश्यक हैं। सभी हस्ताक्षरित अनुबंधों को केंद्रीय अनुबंध भंडार में दर्ज किया जाना चाहिए।",
+    "language": "hi",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "कानूनी नीति मैनुअल",
+      "section": "अनुबंध हस्ताक्षर प्राधिकार",
+      "twin_of": "053"
+    }
+  },
+  {
+    "id": "076",
+    "passage": "संभावित मुकदमेबाजी की सूचना मिलने पर, सभी प्रासंगिक दस्तावेज़ों को संरक्षित किया जाना चाहिए और नियमित विलोपन कार्यक्रम को निलंबित किया जाना चाहिए। कानूनी विभाग को सूचना के 48 घंटों के भीतर प्रभावित दस्तावेज़ अभिरक्षकों को सूचित करना होगा।",
+    "language": "hi",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "कानूनी नीति मैनुअल",
+      "section": "मुकदमा होल्ड प्रक्रिया",
+      "twin_of": "055"
+    }
+  },
+  {
+    "id": "077",
+    "passage": "सेल्स प्रतिनिधि स्वतंत्र रूप से 10% तक की ग्राहक छूट को मंजूरी दे सकते हैं। क्षेत्रीय प्रबंधक 20% तक की छूट को मंजूरी दे सकते हैं। 20% से अधिक की किसी भी छूट के लिए वीपी सेल्स की मंजूरी आवश्यक है।",
+    "language": "hi",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "बिक्री नीति मैनुअल",
+      "section": "छूट अनुमोदन प्राधिकार",
+      "twin_of": "056"
+    }
+  },
+  {
+    "id": "078",
+    "passage": "मानक बिक्री कमीशन संरचना कुल डील मूल्य का 3% है, जिसमें त्रैमासिक बिक्री लक्ष्य से अधिक डील पर 5% का त्वरक दर लागू होता है। कमीशन मासिक रूप से बकाया के रूप में भुगतान किया जाता है।",
+    "language": "hi",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "बिक्री नीति मैनुअल",
+      "section": "बिक्री कमीशन संरचना",
+      "twin_of": "058"
+    }
+  },
+  {
+    "id": "079",
+    "passage": "कंपनी के लोगो को सभी तरफ लोगो की ऊंचाई के बराबर न्यूनतम खाली स्थान की आवश्यकता होती है। प्राथमिक ब्रांड रंग पैंटोन 286C है। आधिकारिक संचार में केवल ब्रांड स्टाइल गाइड से अनुमोदित फॉन्ट का ही उपयोग किया जा सकता है।",
+    "language": "hi",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "ब्रांड दिशानिर्देश मैनुअल",
+      "section": "ब्रांड दिशानिर्देश",
+      "twin_of": "059"
+    }
+  },
+  {
+    "id": "080",
+    "passage": "कर्मचारियों को व्यक्तिगत या सार्वजनिक सोशल मीडिया खातों पर अप्रकाशित उत्पाद जानकारी साझा नहीं करनी चाहिए। आधिकारिक कंपनी सोशल मीडिया हैंडल का प्रबंधन केवल मार्केटिंग टीम द्वारा किया जाता है। काम से संबंधित व्यक्तिगत पोस्ट में व्यक्तिगत विचार अस्वीकरण शामिल होना चाहिए।",
+    "language": "hi",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "सोशल मीडिया नीति",
+      "section": "सोशल मीडिया नीति",
+      "twin_of": "060"
+    }
+  },
+  {
+    "id": "081",
+    "passage": "पाच किंवा त्याहून अधिक वर्षांची सतत सेवा असलेले कर्मचारी 6 महिन्यांपर्यंतच्या विनावेतन सॅबॅटिकल रजेसाठी पात्र आहेत. विनंतीला किमान 60 दिवस आधी विभाग प्रमुख आणि एचआरची मंजुरी आवश्यक आहे. कंपनी सॅबॅटिकलच्या शेवटी कर्मचाऱ्याच्या त्याच किंवा समकक्ष भूमिकेत परतीची हमी देते.",
+    "language": "mr",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "कर्मचारी पुस्तिका v3.2",
+      "section": "सॅबॅटिकल रजा",
+      "twin_of": "021"
+    }
+  },
+  {
+    "id": "082",
+    "passage": "कंपनी लवचिक कामाच्या तासांचे पालन करते ज्यामध्ये मुख्य वेळ सकाळी 11:00 ते दुपारी 3:00 IST पर्यंत आहे, ज्या दरम्यान सर्व कर्मचाऱ्यांनी उपलब्ध असणे आवश्यक आहे. कर्मचारी सकाळी 8:00 ते 10:00 दरम्यान त्यांची सुरुवातीची वेळ निवडू शकतात परंतु त्यांना दररोज 8 कामाचे तास पूर्ण करावे लागतील. हे धोरण फक्त बिगर-शिफ्ट भूमिकांना लागू होते.",
+    "language": "mr",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "कर्मचारी पुस्तिका v3.2",
+      "section": "लवचिक कामाचे तास",
+      "twin_of": "023"
+    }
+  },
+  {
+    "id": "083",
+    "passage": "सीनियर मॅनेजर स्तर आणि त्यावरील कर्मचारी एम्प्लॉई स्टॉक ऑप्शन प्लान (ईएसओपी) साठी पात्र आहेत. वेस्टिंग 4 वर्षांत 1-वर्षाच्या क्लिफसह होते: पहिल्या वर्षानंतर अनुदानाच्या 25% वेस्ट होते, आणि उर्वरित त्यानंतर दरमहा वेस्ट होते.",
+    "language": "mr",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "ईएसओपी धोरण दस्तऐवज",
+      "section": "एम्प्लॉई स्टॉक ऑप्शन प्लॅन",
+      "twin_of": "025"
+    }
+  },
+  {
+    "id": "084",
+    "passage": "जवळच्या कुटुंबातील सदस्याच्या (पती/पत्नी, मूल, पालक, किंवा भावंड) मृत्यूच्या प्रसंगी कर्मचारी 5 दिवसांच्या सवेतन शोक रजेस पात्र आहेत, आणि विस्तारित कुटुंबातील सदस्यांसाठी 2 दिवस. मंजुरीनुसार अतिरिक्त विनावेतन रजा दिली जाऊ शकते.",
+    "language": "mr",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "कर्मचारी पुस्तिका v3.2",
+      "section": "शोक रजा",
+      "twin_of": "026"
+    }
+  },
+  {
+    "id": "085",
+    "passage": "100 किलोमीटर किंवा त्याहून अधिक अंतराच्या कंपनी बदलीसाठी स्थलांतरित होणारे कर्मचारी एका महिन्याच्या एकूण पगाराइतक्या एकरकमी स्थलांतर भत्त्यासाठी पात्र आहेत, तसेच 30 दिवसांपर्यंत तात्पुरत्या निवास सहाय्यासह.",
+    "language": "mr",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "स्थलांतर धोरण",
+      "section": "स्थलांतर सहाय्य",
+      "twin_of": "029"
+    }
+  },
+  {
+    "id": "086",
+    "passage": "10 लाख रुपयांपेक्षा जास्त व्यवहार स्वयंचलितपणे अनुपालन पुनरावलोकनासाठी फ्लॅग केले जातात. सर्व विक्रेते आणि ग्राहकांसाठी KYC (नो युवर कस्टमर) कागदपत्रे अनिवार्य आहेत. संशयास्पद क्रियाकलाप आढळल्यास 24 तासांच्या आत अनुपालन अधिकाऱ्याला कळवणे आवश्यक आहे.",
+    "language": "mr",
+    "category": "compliance",
+    "metadata": {
+      "source": "एएमएल धोरण आराखडा",
+      "section": "मनी लाँड्रिंग विरोधी धोरण",
+      "twin_of": "031"
+    }
+  },
+  {
+    "id": "087",
+    "passage": "त्रैमासिक निकालांच्या घोषणेच्या 15 दिवस आधीपासून ते निकाल सार्वजनिक झाल्यानंतर 48 तासांपर्यंत ट्रेडिंग विंडो बंद असते. नामनिर्देशित कर्मचाऱ्यांनी कंपनीच्या सिक्युरिटीजमधील सर्व व्यवहारांसाठी अनुपालन अधिकाऱ्याकडून आगाऊ मंजुरी घेणे आवश्यक आहे.",
+    "language": "mr",
+    "category": "compliance",
+    "metadata": {
+      "source": "इनसायडर ट्रेडिंग धोरण",
+      "section": "इनसायडर ट्रेडिंग निर्बंध",
+      "twin_of": "033"
+    }
+  },
+  {
+    "id": "088",
+    "passage": "प्रतिबंधित देशांना तंत्रज्ञान हस्तांतरणासाठी आधी कायदेशीर पुनरावलोकन आवश्यक आहे. दुहेरी-वापर वस्तूंचे वर्गीकरण लागू निर्यात नियंत्रण यादीनुसार केले जाते. कोणत्याही संशयास्पद उल्लंघनाची त्वरित निर्यात नियंत्रण अधिकाऱ्याला माहिती दिली पाहिजे.",
+    "language": "mr",
+    "category": "compliance",
+    "metadata": {
+      "source": "निर्यात नियंत्रण धोरण",
+      "section": "निर्यात नियंत्रण अनुपालन",
+      "twin_of": "036"
+    }
+  },
+  {
+    "id": "089",
+    "passage": "5 लाख रुपयांपेक्षा जास्त भांडवली खर्चासाठी सीएफओची मंजुरी आवश्यक आहे, तर 50 लाख रुपयांपेक्षा जास्त खर्चासाठी बोर्डाची मंजुरी आवश्यक आहे. सर्व कॅपेक्स विनंत्या दस्तऐवजीकरण केलेल्या व्यवसाय प्रकरणासह वित्त पोर्टलद्वारे पाठवल्या पाहिजेत.",
+    "language": "mr",
+    "category": "finance",
+    "metadata": {
+      "source": "वित्त धोरण मॅन्युअल",
+      "section": "भांडवली खर्च मंजुरी",
+      "twin_of": "039"
+    }
+  },
+  {
+    "id": "090",
+    "passage": "मानक विक्रेता देयक अटी बीजक प्राप्तीच्या तारखेपासून 45 दिवस निव्वळ आहेत. जे विक्रेते बीजक जारी झाल्यापासून 10 दिवसांच्या आत देयक स्वीकारतात त्यांना 2% लवकर देयक सवलत दिली जाते.",
+    "language": "mr",
+    "category": "finance",
+    "metadata": {
+      "source": "वित्त धोरण मॅन्युअल",
+      "section": "विक्रेता देयक अटी",
+      "twin_of": "041"
+    }
+  },
+  {
+    "id": "091",
+    "passage": "Q4 FY26 चे आर्थिक निकाल 48,600 कोटी रुपयांचा महसूल दर्शवतात, जो वर्ष-दर-वर्ष 8% वाढ दर्शवतो. कार्यरत मार्जिन 27.1% राहिले, आणि करानंतरचा निव्वळ नफा 12,400 कोटी रुपये राहिला, ज्यामध्ये प्रति शेअर कमाई 18.30 रुपये होती.",
+    "language": "mr",
+    "category": "finance",
+    "metadata": {
+      "source": "त्रैमासिक कमाई अहवाल Q4 FY26",
+      "section": "Q4 FY26 आर्थिक ठळक मुद्दे",
+      "twin_of": "044"
+    }
+  },
+  {
+    "id": "092",
+    "passage": "कंपनीचे पासवर्ड किमान 12 अक्षरांचे असावेत आणि त्यात मोठी अक्षरे, लहान अक्षरे, संख्या आणि विशेष चिन्हे असावीत. पासवर्ड दर 90 दिवसांनी बदलले पाहिजेत, आणि मागील 10 पासवर्डचा पुनर्वापर करण्यास परवानगी नाही.",
+    "language": "mr",
+    "category": "compliance",
+    "metadata": {
+      "source": "आयटी स्वीकार्य वापर धोरण",
+      "section": "पासवर्ड धोरण",
+      "twin_of": "047"
+    }
+  },
+  {
+    "id": "093",
+    "passage": "कंपनीने दिलेल्या उपकरणांवर फक्त आयटी-मंजूर सॉफ्टवेअर स्थापित केले जाऊ शकते. वार्षिक सॉफ्टवेअर परवाना ऑडिट केले जाते, आणि कोणतेही अनधिकृत सॉफ्टवेअर आढळल्यानंतर 48 तासांच्या आत काढून टाकले पाहिजे.",
+    "language": "mr",
+    "category": "compliance",
+    "metadata": {
+      "source": "आयटी स्वीकार्य वापर धोरण",
+      "section": "सॉफ्टवेअर परवाना अनुपालन",
+      "twin_of": "049"
+    }
+  },
+  {
+    "id": "094",
+    "passage": "सिव्हिअरिटी 1 घटना 15 मिनिटांत मान्य केल्या पाहिजेत आणि 4 तासांत सोडवल्या पाहिजेत. सिव्हिअरिटी 2 घटना 1 तासात मान्य केल्या पाहिजेत आणि 8 तासांत सोडवल्या पाहिजेत.",
+    "language": "mr",
+    "category": "compliance",
+    "metadata": {
+      "source": "आयटी सेवा व्यवस्थापन धोरण",
+      "section": "घटना प्रतिसाद एसएलए",
+      "twin_of": "051"
+    }
+  },
+  {
+    "id": "095",
+    "passage": "25 लाख रुपयांपर्यंतच्या करारांवर विभाग प्रमुख स्वाक्षरी करू शकतात. या रकमेपेक्षा जास्त करारांसाठी सीएफओ किंवा सीईओची सह-स्वाक्षरी आवश्यक आहे. सर्व स्वाक्षरी केलेले करार केंद्रीय करार भांडारात नोंदवले पाहिजेत.",
+    "language": "mr",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "कायदेशीर धोरण मॅन्युअल",
+      "section": "करार स्वाक्षरी अधिकार",
+      "twin_of": "053"
+    }
+  },
+  {
+    "id": "096",
+    "passage": "संभाव्य खटल्याची सूचना मिळाल्यावर, सर्व संबंधित कागदपत्रे जतन करणे आणि नियमित हटवण्याचे वेळापत्रक स्थगित करणे आवश्यक आहे. कायदेशीर विभागाने सूचनेच्या 48 तासांच्या आत प्रभावित कागदपत्र संरक्षकांना कळवणे आवश्यक आहे.",
+    "language": "mr",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "कायदेशीर धोरण मॅन्युअल",
+      "section": "खटला होल्ड प्रक्रिया",
+      "twin_of": "055"
+    }
+  },
+  {
+    "id": "097",
+    "passage": "सेल्स प्रतिनिधी स्वतंत्रपणे 10% पर्यंत ग्राहक सवलत मंजूर करू शकतात. प्रादेशिक व्यवस्थापक 20% पर्यंत सवलत मंजूर करू शकतात. 20% पेक्षा जास्त कोणत्याही सवलतीसाठी व्हीपी सेल्सची मंजुरी आवश्यक आहे.",
+    "language": "mr",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "विक्री धोरण मॅन्युअल",
+      "section": "सवलत मंजुरी अधिकार",
+      "twin_of": "056"
+    }
+  },
+  {
+    "id": "098",
+    "passage": "मानक विक्री कमिशन रचना एकूण डील मूल्याच्या 3% आहे, ज्यामध्ये त्रैमासिक विक्री लक्ष्यापेक्षा जास्त डीलवर 5% प्रवेगक दर लागू होतो. कमिशन दरमहा थकबाकी म्हणून दिले जाते.",
+    "language": "mr",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "विक्री धोरण मॅन्युअल",
+      "section": "विक्री कमिशन रचना",
+      "twin_of": "058"
+    }
+  },
+  {
+    "id": "099",
+    "passage": "कंपनीच्या लोगोसाठी सर्व बाजूंनी लोगोच्या उंचीइतकी किमान मोकळी जागा आवश्यक आहे. प्राथमिक ब्रँड रंग पँटोन 286C आहे. अधिकृत संप्रेषणांमध्ये फक्त ब्रँड स्टाइल गाइडमधील मंजूर फॉन्टचाच वापर केला जाऊ शकतो.",
+    "language": "mr",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "ब्रँड मार्गदर्शक मॅन्युअल",
+      "section": "ब्रँड मार्गदर्शक तत्त्वे",
+      "twin_of": "059"
+    }
+  },
+  {
+    "id": "100",
+    "passage": "कर्मचाऱ्यांनी वैयक्तिक किंवा सार्वजनिक सोशल मीडिया खात्यांवर अप्रकाशित उत्पादन माहिती सामायिक करू नये. अधिकृत कंपनी सोशल मीडिया हँडल्सचे व्यवस्थापन फक्त मार्केटिंग टीमद्वारे केले जाते. कामाशी संबंधित वैयक्तिक पोस्टमध्ये वैयक्तिक मत अस्वीकरण समाविष्ट असणे आवश्यक आहे.",
+    "language": "mr",
+    "category": "hr_policy",
+    "metadata": {
+      "source": "सोशल मीडिया धोरण",
+      "section": "सोशल मीडिया धोरण",
+      "twin_of": "060"
+    }
+  }
+]
