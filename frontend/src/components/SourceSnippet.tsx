@@ -30,7 +30,11 @@ export default function SourceSnippet({ snippet, rank }: SourceSnippetProps) {
           <div className="mb-2 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
             <div className="flex min-w-0 items-center gap-2">
               <FileText className="w-3.5 h-3.5 text-white/30" />
-              <span className="truncate text-xs font-medium text-white/60">{snippet.source}</span>
+              {snippet.url ? (
+                <a href={snippet.url} target="_blank" rel="noreferrer" className="truncate text-xs font-medium text-indigo-300 hover:text-indigo-200 underline">
+                  {snippet.source}
+                </a>
+              ) : <span className="truncate text-xs font-medium text-white/60">{snippet.source}</span>}
             </div>
             <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
               <div className="flex items-center gap-1 text-white/30 text-[10px]">

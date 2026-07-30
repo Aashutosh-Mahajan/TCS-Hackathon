@@ -6,6 +6,7 @@ export interface SnippetResponse {
   source: string;
   language: string;
   category: string;
+  url?: string | null;
 }
 
 export interface AgentTraceEntry {
@@ -35,6 +36,10 @@ export interface QueryResponse {
   confidence_score: number;
   explanation: string;
   warning: string | null;
+  dataset_status: "in_dataset" | "not_in_dataset";
+  web_searched: boolean;
+  web_search_status: string;
+  verification_required: boolean;
   retrieved_snippets: SnippetResponse[];
   scoring_factors: ScoringFactors;
   agent_trace: AgentTraceEntry[];

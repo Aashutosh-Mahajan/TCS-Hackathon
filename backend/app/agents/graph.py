@@ -13,6 +13,7 @@ from langgraph.graph import StateGraph, START, END
 from app.agents.state import PipelineState
 from app.agents.language_agent import language_agent
 from app.agents.retriever_agent import retriever_agent
+from app.agents.web_search_agent import web_search_agent
 from app.agents.answer_agent import answer_agent
 from app.agents.grounding_agent import grounding_agent
 from app.agents.confidence_agent import confidence_agent
@@ -28,6 +29,7 @@ def build_graph():
     # Add all agent nodes
     graph.add_node("language", language_agent)
     graph.add_node("retriever", retriever_agent)
+    graph.add_node("web_search", web_search_agent)
     graph.add_node("answer", answer_agent)
     graph.add_node("grounding", grounding_agent)
     graph.add_node("confidence", confidence_agent)
@@ -36,7 +38,8 @@ def build_graph():
     # Define the linear pipeline flow
     graph.add_edge(START, "language")
     graph.add_edge("language", "retriever")
-    graph.add_edge("retriever", "answer")
+    graph.add_edge("retriever", "web_search")
+    graph.add_edge("web_search", "answer")
     graph.add_edge("answer", "grounding")
     graph.add_edge("grounding", "confidence")
     graph.add_edge("confidence", "explainer")

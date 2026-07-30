@@ -60,6 +60,14 @@ export default function ResultCard({ result }: ResultCardProps) {
           </div>
         </div>
 
+        <div className={`mb-5 rounded-xl px-4 py-3 text-sm ${result.dataset_status === "in_dataset" ? "border border-emerald-400/20 bg-emerald-400/5 text-emerald-200/80" : "border border-amber-400/30 bg-amber-400/10 text-amber-100"}`}>
+          {result.dataset_status === "in_dataset"
+            ? "Internal dataset evidence found."
+            : result.web_searched
+              ? "Not in the internal dataset. This output was web-searched and requires verification against the original source."
+              : "Not in the internal dataset. Verification is required before relying on this response."}
+        </div>
+
         {/* Warning Banner */}
         {result.warning && (
           <motion.div

@@ -30,6 +30,8 @@ def answer_agent(state: PipelineState) -> dict:
     query = state["query"]
     snippets = state.get("retrieved_snippets", [])
     language = state.get("detected_language", "en")
+    dataset_match = state.get("dataset_match", False)
+    web_searched = state.get("web_searched", False)
 
     # Build context from retrieved snippets
     context_parts = []
@@ -39,7 +41,14 @@ def answer_agent(state: PipelineState) -> dict:
         )
     context = "\n\n".join(context_parts) if context_parts else "No relevant sources found."
 
+    source_status = (
+        "This is verified internal dataset context."
+        if dataset_match else
+        "The internal dataset does not contain this answer. The following are unverified public-web search snippets. State that verification is required and do not present them as confirmed facts."
+    )
     user_message = f"""Question: {query}
+
+Source status: {source_status}
 
 Retrieved Context:
 {context}
@@ -50,11 +59,14 @@ Please answer the question based ONLY on the retrieved context above."""
     if not settings.use_external_model or not settings.openai_api_key:
         # A deterministic, source-first path keeps the prototype responsive in
         # local/demo environments where an external model is not configured.
-        if snippets:
+        if snippets and dataset_match:
             best = snippets[0]
             answer = f"According to {best['source']}, {best['text']}"
+        elif snippets and web_searched:
+            best = snippets[0]
+            answer = f"Not found in the internal dataset. This response was web-searched and requires verification: {best['text']} (Source: {best['source']})."
         else:
-            answer = "No relevant source evidence was found for this question."
+            answer = "Not found in the internal dataset. No verifiable web-search result was available; please verify with an authoritative source."
         answer_mode = "source fallback"
     else:
         try:
@@ -69,13 +81,20 @@ Please answer the question based ONLY on the retrieved context above."""
             )
             answer = response.choices[0].message.content or ""
         except Exception:
-            if snippets:
+            if snippets and dataset_match:
                 best = snippets[0]
                 answer = f"According to {best['source']}, {best['text']}"
+            elif snippets and web_searched:
+                best = snippets[0]
+                answer = f"Not found in the internal dataset. This response was web-searched and requires verification: {best['text']}"
             else:
-                answer = "No relevant source evidence was found for this question."
+                answer = "Not found in the internal dataset. No verifiable web-search result was available; please verify with an authoritative source."
             answer_mode = "source fallback"
 
+    # This label is enforced in code, rather than relying solely on model
+    # instruction-following, so every web-fallback response is unambiguous.
+    if not dataset_match and not answer.startswith("Not found in the internal dataset."):
+        answer = "Not found in the internal dataset. This output was web-searched and requires verification: " + answer
 
     duration_ms = (time.perf_counter() - start) * 1000
 

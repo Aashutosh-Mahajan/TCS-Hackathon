@@ -17,6 +17,7 @@ class SnippetResponse(BaseModel):
     source: str
     language: str
     category: str = ""
+    url: str | None = None
 
 
 class AgentTraceEntry(BaseModel):
@@ -47,6 +48,10 @@ class QueryResponse(BaseModel):
     confidence_score: float = Field(..., ge=0.0, le=1.0)
     explanation: str
     warning: str | None = None
+    dataset_status: str = Field(..., description="in_dataset / not_in_dataset")
+    web_searched: bool = False
+    web_search_status: str = "not_needed"
+    verification_required: bool = False
     retrieved_snippets: list[SnippetResponse]
     scoring_factors: ScoringFactors
     agent_trace: list[AgentTraceEntry]

@@ -21,6 +21,13 @@ class PipelineState(TypedDict, total=False):
     retrieved_snippets: list[dict]      # [{text, score, source, language, category}]
     retrieval_score: float              # Best retrieval similarity (0–1)
 
+    # Strict internal evidence gate and web-search fallback
+    dataset_match: bool
+    dataset_status: str
+    web_searched: bool
+    web_search_status: str
+    verification_required: bool
+
     # Answer Agent output
     answer: str                         # Generated answer
     answer_mode: str                    # model / source fallback / service unavailable

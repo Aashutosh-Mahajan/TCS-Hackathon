@@ -62,6 +62,18 @@ def grounding_agent(state: PipelineState) -> dict:
     answer = state.get("answer", "")
     snippets = state.get("retrieved_snippets", [])
 
+    if not state.get("dataset_match", False):
+        details = "The answer is not in the internal dataset. Public web-search snippets are unverified and must be checked against the original authoritative source."
+        duration_ms = (time.perf_counter() - start) * 1000
+        return {
+            "grounding_label": "no_evidence", "grounding_details": details,
+            "agent_trace": state.get("agent_trace", []) + [{
+                "agent": "Grounding Agent", "input_summary": "Out-of-dataset web fallback",
+                "output_summary": "Label: no_evidence | Web results require verification",
+                "duration_ms": round(duration_ms, 2),
+            }],
+        }
+
     # Build evidence text
     evidence_parts = []
     for i, snippet in enumerate(snippets, 1):

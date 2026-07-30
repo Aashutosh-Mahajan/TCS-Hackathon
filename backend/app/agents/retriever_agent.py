@@ -6,6 +6,7 @@ then fuses rankings with Reciprocal Rank Fusion for robust retrieval.
 """
 
 import time
+import re
 from app.agents.state import PipelineState
 from app.rag.embeddings import encode_query
 from app.rag.fusion import reciprocal_rank_fusion
@@ -15,6 +16,17 @@ from app.config import get_settings
 _vector_store = None
 _bm25_index = None
 _passages_data = []
+
+GENERIC_TERMS = {"about", "are", "can", "company", "does", "employee", "for", "how", "information", "is", "of", "on", "policy", "the", "to", "what", "with"}
+
+
+def _has_specific_term_overlap(query: str, snippets: list[dict]) -> bool:
+    """Avoid treating a shared generic word such as 'policy' as evidence."""
+    query_terms = {term for term in re.findall(r"[a-z]{3,}", query.lower()) if term not in GENERIC_TERMS}
+    if not query_terms:  # Embedding similarity is the cross-language gate.
+        return True
+    evidence = " ".join(s["text"] for s in snippets).lower()
+    return any(term in evidence for term in query_terms)
 
 
 def init_retriever(vector_store, bm25_index, passages_data: list[dict]):
@@ -66,13 +78,19 @@ def retriever_agent(state: PipelineState) -> dict:
 
     # Best retrieval score (cosine similarity of top snippet)
     best_score = snippets[0]["score"] if snippets else 0.0
+    specific_overlap = _has_specific_term_overlap(query, snippets)
+    dataset_match = bool(snippets and best_score >= settings.dataset_match_threshold and specific_overlap)
+    # Ranking always returns a nearest neighbour; omit it unless it passes the
+    # evidence gate so unrelated questions cannot receive a random answer.
+    if not dataset_match:
+        snippets = []
 
     duration_ms = (time.perf_counter() - start) * 1000
 
     trace_entry = {
         "agent": "Retriever Agent",
         "input_summary": f"Query: '{query[:60]}...' | Language: {state.get('detected_language', 'unknown')}",
-        "output_summary": f"Retrieved {len(snippets)} snippets | Best score: {best_score:.4f}",
+        "output_summary": f"Dataset match: {dataset_match} | Best score: {best_score:.4f} | Specific overlap: {specific_overlap}",
         "duration_ms": round(duration_ms, 2),
     }
 
@@ -81,5 +99,7 @@ def retriever_agent(state: PipelineState) -> dict:
     return {
         "retrieved_snippets": snippets,
         "retrieval_score": best_score,
+        "dataset_match": dataset_match,
+        "dataset_status": "in_dataset" if dataset_match else "not_in_dataset",
         "agent_trace": existing_trace + [trace_entry],
     }

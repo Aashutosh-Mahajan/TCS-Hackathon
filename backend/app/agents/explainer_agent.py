@@ -19,6 +19,8 @@ def explainer_agent(state: PipelineState) -> dict:
     grounding_details = state.get("grounding_details", "")
     retrieval_score = state.get("retrieval_score", 0.0)
     snippets = state.get("retrieved_snippets", [])
+    dataset_status = state.get("dataset_status", "not_in_dataset")
+    web_searched = state.get("web_searched", False)
 
     # Get the best source name
     best_source = snippets[0]["source"] if snippets else "unknown source"
@@ -40,7 +42,11 @@ def explainer_agent(state: PipelineState) -> dict:
         warning = "⚠️ Partial evidence — some claims may not be fully verified by available sources."
 
     else:  # Needs Verification
-        if grounding_label == "contradicted":
+        if dataset_status == "not_in_dataset":
+            search_note = "A public web search was performed" if web_searched else "No public web search was performed"
+            explanation = f"This query is not covered by the internal dataset (confidence: {score_pct}%). {search_note}; any displayed web result is unverified and must be checked at its original authoritative source."
+            warning = "Verification required: this answer is not in the internal dataset and any web-search content is not verified."
+        elif grounding_label == "contradicted":
             explanation = (
                 f"This answer may contradict available evidence (confidence: {score_pct}%). "
                 f"{grounding_details}"

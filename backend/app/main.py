@@ -133,6 +133,7 @@ async def process_query(request: QueryRequest):
                 source=s["source"],
                 language=s["language"],
                 category=s.get("category", ""),
+                url=s.get("url"),
             )
             for s in result.get("retrieved_snippets", [])
         ]
@@ -160,6 +161,10 @@ async def process_query(request: QueryRequest):
             confidence_score=result.get("confidence_score", 0.0),
             explanation=result.get("explanation", ""),
             warning=result.get("warning", None) or None,
+            dataset_status=result.get("dataset_status", "not_in_dataset"),
+            web_searched=result.get("web_searched", False),
+            web_search_status=result.get("web_search_status", "not_needed"),
+            verification_required=result.get("verification_required", False),
             retrieved_snippets=snippets,
             scoring_factors=scoring_factors,
             agent_trace=agent_trace,
