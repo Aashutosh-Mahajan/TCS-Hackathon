@@ -69,14 +69,13 @@ Please answer the question based ONLY on the retrieved context above."""
             )
             answer = response.choices[0].message.content or ""
         except Exception:
-            # Provider diagnostics can contain implementation or credential details;
-            # never surface them in an enterprise-facing answer.
-            answer = (
-                "The answer-generation service is unavailable, so a reliable answer "
-                "cannot be produced at this time. Please review the retrieved source "
-                "evidence or try again later."
-            )
-            answer_mode = "service unavailable"
+            if snippets:
+                best = snippets[0]
+                answer = f"According to {best['source']}, {best['text']}"
+            else:
+                answer = "No relevant source evidence was found for this question."
+            answer_mode = "source fallback"
+
 
     duration_ms = (time.perf_counter() - start) * 1000
 

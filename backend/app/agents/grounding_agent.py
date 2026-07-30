@@ -109,11 +109,8 @@ Assess whether the answer is supported by the evidence."""
                     grounding_details = line.replace("REASONING:", "").strip()
 
         except Exception:
-            # Keep provider failures out of the user-visible explanation and trace.
-            grounding_details = (
-                "The grounding check could not be completed, so the answer should be "
-                "independently verified against the retrieved sources."
-            )
+            grounding_label, grounding_details = _local_grounding(state.get("query", ""), snippets)
+
 
     duration_ms = (time.perf_counter() - start) * 1000
 
