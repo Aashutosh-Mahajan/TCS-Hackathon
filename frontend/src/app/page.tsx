@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Shield, Zap, Globe, Brain } from "lucide-react";
 import Navbar from "@/components/Navbar";
@@ -8,6 +8,50 @@ import QueryInput from "@/components/QueryInput";
 import ResultCard from "@/components/ResultCard";
 import { submitQuery } from "@/lib/api";
 import { QueryResponse } from "@/types";
+
+const HERO_VIDEO_URL =
+  "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260405_074625_a81f018a-956b-43fb-9aee-4d1508e30e6a.mp4";
+
+function HeroBackground() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [isVideoReady, setIsVideoReady] = useState(false);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    const fade = (from: number, to: number, duration = 500) => {
+      const startedAt = performance.now();
+      const step = (now: number) => {
+        const progress = Math.min((now - startedAt) / duration, 1);
+        video.style.opacity = String(from + (to - from) * progress);
+        if (progress < 1) requestAnimationFrame(step);
+      };
+      requestAnimationFrame(step);
+    };
+
+    const handleCanPlay = () => {
+      video.play().catch(() => undefined);
+      setIsVideoReady(true);
+      fade(Number(video.style.opacity || 0), 1);
+    };
+    video.addEventListener("canplay", handleCanPlay, { once: true });
+    return () => {
+      video.removeEventListener("canplay", handleCanPlay);
+    };
+  }, []);
+
+  return (
+    <div className="fixed inset-0 z-0 overflow-hidden bg-black" aria-hidden="true">
+      <video ref={videoRef} className="h-full w-full object-cover object-bottom" style={{ opacity: 0 }} muted autoPlay loop playsInline preload="auto" onError={() => setIsVideoReady(false)}>
+        <source src={HERO_VIDEO_URL} type="video/mp4" />
+      </video>
+      <div className="absolute inset-0 bg-black/55" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(99,102,241,0.18)_0%,_transparent_52%)]" />
+      {!isVideoReady && <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,_rgba(34,197,94,0.12)_0%,_transparent_55%)]" />}
+    </div>
+  );
+}
 
 export default function Home() {
   const [result, setResult] = useState<QueryResponse | null>(null);
@@ -30,9 +74,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-black relative overflow-hidden">
-      {/* Subtle radial gradient background */}
-      <div className="fixed inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(99,102,241,0.08)_0%,_transparent_50%)] pointer-events-none" />
-      <div className="fixed inset-0 bg-[radial-gradient(ellipse_at_bottom_right,_rgba(34,197,94,0.04)_0%,_transparent_50%)] pointer-events-none" />
+      <HeroBackground />
 
       {/* Navbar */}
       <Navbar />

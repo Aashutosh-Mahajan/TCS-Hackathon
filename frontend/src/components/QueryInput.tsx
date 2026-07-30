@@ -43,7 +43,7 @@ export default function QueryInput({ onSubmit, isLoading }: QueryInputProps) {
     >
       {/* Input */}
       <form onSubmit={handleSubmit}>
-        <div className="liquid-glass flex items-center gap-2 rounded-2xl py-2 pl-4 pr-2 sm:gap-3 sm:rounded-full sm:pl-6">
+        <div className="liquid-glass flex items-center gap-2 rounded-2xl py-2.5 pl-4 pr-2 sm:gap-3 sm:rounded-full sm:pl-6">
           <Sparkles className="w-5 h-5 text-white/40 flex-shrink-0" />
           <input
             type="text"
@@ -56,7 +56,7 @@ export default function QueryInput({ onSubmit, isLoading }: QueryInputProps) {
           <button
             type="submit"
             disabled={isLoading || !query.trim()}
-            className="bg-white rounded-full p-3 text-black hover:bg-white/90 transition-colors disabled:opacity-40 disabled:cursor-not-allowed flex-shrink-0"
+            className="flex shrink-0 items-center justify-center rounded-full bg-white p-3 text-black shadow-lg shadow-white/20 transition-colors hover:bg-white/90 disabled:cursor-not-allowed disabled:opacity-40"
           >
             {isLoading ? (
               <Loader2 className="w-5 h-5 animate-spin" />
